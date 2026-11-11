@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Page() { return <section className="panel account-panel"><h1>La connexion automatique n’a pas abouti.</h1><p>Le lien a peut-être expiré, déjà été utilisé ou été ouvert dans un autre navigateur. Si votre adresse vient d’être confirmée, connectez-vous avec votre e-mail et votre mot de passe.</p><Link href="/compte" className="button primary">Revenir à mon compte</Link></section>; }

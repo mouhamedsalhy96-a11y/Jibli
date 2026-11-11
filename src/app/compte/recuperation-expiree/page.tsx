@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Page() { return <section className="panel account-panel"><h1>Ce lien de récupération n’est plus utilisable.</h1><p>Il a peut-être expiré, déjà été utilisé ou été ouvert dans un autre navigateur. Demandez un nouveau lien et ouvrez-le dans le navigateur utilisé pour la demande.</p><Link href="/compte/mot-de-passe-oublie" className="button primary">Demander un nouveau lien</Link><Link href="/compte" className="text-link password-back">Revenir à la connexion</Link></section>; }
